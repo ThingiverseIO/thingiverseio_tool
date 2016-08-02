@@ -3,6 +3,8 @@
 *.a
 *.so
 
+tvio
+
 # Folders
 _obj
 _test
