@@ -3,7 +3,6 @@
 *.a
 *.so
 
-tvio
 
 # Folders
 _obj
