@@ -31,7 +31,7 @@ func runSet(c *cli.Context) {
 	iface := c.Args().Get(0)
 
 	if iface == "" {
-		common.PrintError(fmt.Errorf("Not enough Arguments."))
+		cli.ShowCommandHelp(c, "network")
 		return
 	}
 
